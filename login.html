@@ -1,0 +1,53 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Pleasent Hills Hospital</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="login-page">
+  <!-- Reuse your navigation bar -->
+  <nav class="navigationBar">
+    <div class="navigationBar_container">
+      <a href="/" id="navigationBar_logo">PORTAL</a>
+      <div class="navigationBar_toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navigationBar_menu">
+        <li class="navigationBar_item">
+          <a href="/" class="navigationBar_links">Home</a>
+        </li>
+        <li class="navigationBar_item">
+          <a href="/register.html" class="navigationBar_links">Register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Login Form -->
+  <div class="main">
+    <div class="main_container">
+      <div class="main_content">
+        <h1>Login</h1>
+        <form id="loginForm" class="form">
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="password" name="password" placeholder="Password" required />
+          <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer (Optional for login page) -->
+  <div class="footer_container">
+    <p class="website_right">Copyright © Pleasent Hills Hospital 2025.</p>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
